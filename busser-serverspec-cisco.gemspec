@@ -6,11 +6,11 @@ require 'busser/serverspec/version'
 Gem::Specification.new do |spec|
   spec.name          = 'busser-serverspec-cisco'
   spec.version       = Busser::Serverspec::VERSION
-  spec.authors       = ['HIGUCHI Daisuke']
-  spec.email         = ['d-higuchi@creationline.com']
-  spec.description   = %q{A Busser runner plugin for Serverspec}
+  spec.authors       = ['HIGUCHI Daisuke', 'Carl Perry']
+  spec.email         = ['d-higuchi@creationline.com', 'partnereng@chef.io']
+  spec.description   = %q{A Busser runner plugin for Serverspec with patches for Cisco platforms}
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/test-kitchen/busser-serverspec'
+  spec.homepage      = 'https://github.com/chef-partners/busser-serverspec-cisco'
   spec.license       = 'Apache 2.0'
 
   spec.files         = `git ls-files`.split($/)
