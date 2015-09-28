@@ -1,11 +1,7 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'busser/serverspec/version'
-
 Gem::Specification.new do |spec|
   spec.name          = 'busser-serverspec-cisco'
-  spec.version       = Busser::Serverspec::VERSION
+  spec.version       = '0.5.8'
   spec.authors       = ['HIGUCHI Daisuke', 'Carl Perry']
   spec.email         = ['d-higuchi@creationline.com', 'partnereng@chef.io']
   spec.description   = %q{A Busser runner plugin for Serverspec with patches for Cisco platforms}
